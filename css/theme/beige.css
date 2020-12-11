@@ -275,4 +275,6 @@ right: -40em;}
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #f7f3de; } }
+     background: #292f62;
+     background: -webkit-linear-gradient(top, #292f62, #292f62 15%, white 15%, white);
+     background-color: #ffffff; } }
