@@ -9,14 +9,16 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #f7f2d3;
-  background: -moz-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, white), color-stop(100%, #f7f2d3));
-  background: -webkit-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
-  background: -o-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
-  background: -ms-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
-  background: radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
-  background-color: #f7f3de; }
+  background: #292f62;
+  background: -webkit-linear-gradient(top, #292f62, #292f62 15%, white 15%, white);
+  background-color: #ffffff; }
+
+body:after {
+content: url('../../../pics/abcd.png');
+transform: scale(0.2);
+position: fixed;
+top: -18.7em;
+right: -40em;}
 
 .reveal {
   font-family: "Lato", sans-serif;
